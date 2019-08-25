@@ -1,0 +1,2 @@
+# DatabaseBridgeSchool
+Khidmat DB Frontend
