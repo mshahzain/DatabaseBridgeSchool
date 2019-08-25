@@ -1,0 +1,25 @@
+E:\Summers 2019\Khidmat\Forms\Form 1\bin\Debug\Form 1.exe.config
+E:\Summers 2019\Khidmat\Forms\Form 1\bin\Debug\Form 1.exe
+E:\Summers 2019\Khidmat\Forms\Form 1\bin\Debug\Form 1.pdb
+E:\Summers 2019\Khidmat\Forms\Form 1\obj\Debug\Form 1.csprojAssemblyReference.cache
+E:\Summers 2019\Khidmat\Forms\Form 1\obj\Debug\Form_1.Form1.resources
+E:\Summers 2019\Khidmat\Forms\Form 1\obj\Debug\Form_1.Properties.Resources.resources
+E:\Summers 2019\Khidmat\Forms\Form 1\obj\Debug\Form 1.csproj.GenerateResource.cache
+E:\Summers 2019\Khidmat\Forms\Form 1\obj\Debug\Form 1.csproj.CoreCompileInputs.cache
+E:\Summers 2019\Khidmat\Forms\Form 1\obj\Debug\Form 1.exe
+E:\Summers 2019\Khidmat\Forms\Form 1\obj\Debug\Form 1.pdb
+L:\Users\Shahzain\Desktop\Form 1\bin\Debug\Form 1.exe.config
+L:\Users\Shahzain\Desktop\Form 1\bin\Debug\Form 1.exe
+L:\Users\Shahzain\Desktop\Form 1\bin\Debug\Form 1.pdb
+L:\Users\Shahzain\Desktop\Form 1\obj\Debug\Form 1.csprojAssemblyReference.cache
+L:\Users\Shahzain\Desktop\Form 1\obj\Debug\Form_1.Form1.resources
+L:\Users\Shahzain\Desktop\Form 1\obj\Debug\Form_1.Properties.Resources.resources
+L:\Users\Shahzain\Desktop\Form 1\obj\Debug\Form 1.csproj.GenerateResource.cache
+L:\Users\Shahzain\Desktop\Form 1\obj\Debug\Form 1.csproj.CoreCompileInputs.cache
+L:\Users\Shahzain\Desktop\Form 1\obj\Debug\Form 1.exe
+L:\Users\Shahzain\Desktop\Form 1\obj\Debug\Form 1.pdb
+L:\Users\Shahzain\Desktop\Form 1\obj\Debug\Form_1.Form2.resources
+L:\Users\Shahzain\Desktop\Form 1\obj\Debug\Form_1.Form3.resources
+L:\Users\Shahzain\Desktop\Form 1\obj\Debug\Form_1.Form4.resources
+L:\Users\Shahzain\Desktop\Form 1\obj\Debug\Form_1.Form5.resources
+L:\Users\Shahzain\Desktop\Form 1\obj\Debug\Form_1.Form6.resources
