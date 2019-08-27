@@ -23,3 +23,16 @@ L:\Users\Shahzain\Desktop\Form 1\obj\Debug\Form_1.Form3.resources
 L:\Users\Shahzain\Desktop\Form 1\obj\Debug\Form_1.Form4.resources
 L:\Users\Shahzain\Desktop\Form 1\obj\Debug\Form_1.Form5.resources
 L:\Users\Shahzain\Desktop\Form 1\obj\Debug\Form_1.Form6.resources
+L:\Users\Shahzain\DatabaseBridgeSchool\Form 1\obj\Debug\Form 1.csprojAssemblyReference.cache
+L:\Users\Shahzain\DatabaseBridgeSchool\Form 1\obj\Debug\Form_1.Form1.resources
+L:\Users\Shahzain\DatabaseBridgeSchool\Form 1\obj\Debug\Form_1.Form2.resources
+L:\Users\Shahzain\DatabaseBridgeSchool\Form 1\obj\Debug\Form_1.Form3.resources
+L:\Users\Shahzain\DatabaseBridgeSchool\Form 1\obj\Debug\Form_1.Form6.resources
+L:\Users\Shahzain\DatabaseBridgeSchool\Form 1\obj\Debug\Form_1.Form4.resources
+L:\Users\Shahzain\DatabaseBridgeSchool\Form 1\obj\Debug\Form_1.Form5.resources
+L:\Users\Shahzain\DatabaseBridgeSchool\Form 1\obj\Debug\Form_1.Form7.resources
+L:\Users\Shahzain\DatabaseBridgeSchool\Form 1\obj\Debug\Form_1.Properties.Resources.resources
+L:\Users\Shahzain\DatabaseBridgeSchool\Form 1\obj\Debug\Form 1.csproj.GenerateResource.cache
+L:\Users\Shahzain\DatabaseBridgeSchool\Form 1\obj\Debug\Form 1.csproj.CoreCompileInputs.cache
+L:\Users\Shahzain\DatabaseBridgeSchool\Form 1\obj\Debug\Form 1.exe
+L:\Users\Shahzain\DatabaseBridgeSchool\Form 1\obj\Debug\Form 1.pdb

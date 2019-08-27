@@ -28,5 +28,10 @@ namespace Form_1
             Form6 newform = new Form6();
             newform.Show();
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
