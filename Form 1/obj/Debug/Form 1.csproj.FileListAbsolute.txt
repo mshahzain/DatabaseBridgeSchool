@@ -36,3 +36,7 @@ L:\Users\Shahzain\DatabaseBridgeSchool\Form 1\obj\Debug\Form 1.csproj.GenerateRe
 L:\Users\Shahzain\DatabaseBridgeSchool\Form 1\obj\Debug\Form 1.csproj.CoreCompileInputs.cache
 L:\Users\Shahzain\DatabaseBridgeSchool\Form 1\obj\Debug\Form 1.exe
 L:\Users\Shahzain\DatabaseBridgeSchool\Form 1\obj\Debug\Form 1.pdb
+L:\Users\Shahzain\DatabaseBridgeSchool\Form 1\obj\Debug\Form_1.Form8.resources
+L:\Users\Shahzain\DatabaseBridgeSchool\Form 1\bin\Debug\Form 1.exe.config
+L:\Users\Shahzain\DatabaseBridgeSchool\Form 1\bin\Debug\Form 1.exe
+L:\Users\Shahzain\DatabaseBridgeSchool\Form 1\bin\Debug\Form 1.pdb

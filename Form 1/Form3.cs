@@ -31,7 +31,8 @@ namespace Form_1
 
         private void Button2_Click(object sender, EventArgs e)
         {
-
+            Form8 newform = new Form8();
+            newform.Show();
         }
     }
 }

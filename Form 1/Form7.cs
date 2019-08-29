@@ -13,11 +13,26 @@ namespace Form_1
 {
     public partial class Form7 : Form
     {
-        public String connectionString;
+        
         SqlConnection cnn;
-        public Form7()
+        private String TypeOfExpense;
+        private String connectionString = "Data Source = DESKTOP-VEVG9RB; Initial Catalog = Khidmat; Integrated Security = True";
+        public Form7(String Sno)
         {
             InitializeComponent();
+            if( Sno != "INSERT")
+            {
+                comboBox4.Enabled = false;
+
+                cnn = new SqlConnection(connectionString);
+                cnn.Open();
+                SqlCommand command2 = new SqlCommand("select * from CashBookDaily where SerialNumber = '" + Sno + "'", cnn);
+                SqlDataReader reader = command2.ExecuteReader();
+               
+
+
+            }
+            else { }
             comboBox1.Text = "January";
             comboBox2.Text = "1";
             comboBox3.Text = "2019";
@@ -33,7 +48,7 @@ namespace Form_1
         private void Button1_Click(object sender, EventArgs e)
         {
             int id;
-            connectionString = "Data Source = DESKTOP-VEVG9RB; Initial Catalog = Khidmat; Integrated Security = True";
+            
             cnn = new SqlConnection(connectionString);
             cnn.Open();
 
@@ -50,9 +65,19 @@ namespace Form_1
 
 
             sq_reader.Close();
-            string addQuery = "Insert into CashBookDaily (SerialNumber, Date, CurrentTrackingMonth,Year,Description, Recipient ) " +
-               "values('" id.ToString() + "', '" +comboBox2.Text + "', '" + comboBox1.Text + "', '" +comboBox3.Text + "', '" + richTextBox1.Text + "', '"
-               + textBox1 + "', '" + textBox4.Text + "', '" + textBox9.Text + "', '" + textBox8.Text + "', '" + textBox1.Text + "')";
+            if (comboBox4.Text == "Groceries") { TypeOfExpense = "Grocery"; }
+            else if (comboBox4.Text == "Salary") { TypeOfExpense = "Salary"; }
+            else if (comboBox4.Text == "Stationary") { TypeOfExpense = "Staionary"; }
+            else if (comboBox4.Text == "Miscellaneous") { TypeOfExpense = " MiscellaneousExpenses"; }
+            else if (comboBox4.Text == "Received Cash") { TypeOfExpense = "MoneyReceived"; }
+            
+
+            string addQuery = "Insert into CashBookDaily (" + TypeOfExpense+ ", Date, CurrentTrackingMonth,Year,Description, Recipient ) " + "values('" + textBox2.Text + "', '" + comboBox2.Text + "', '" + comboBox1.Text + "', '" + comboBox3.Text + "', '" + richTextBox1.Text + "', '"
+              + textBox1.Text + "')";
+            SqlCommand com = new SqlCommand(addQuery, cnn);
+            MessageBox.Show(com.ExecuteNonQuery().ToString());
+            MessageBox.Show("Successfully added.");
+            
 
         }
 
@@ -72,6 +97,26 @@ namespace Form_1
         }
 
         private void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ComboBox4_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ComboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ComboBox3_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
